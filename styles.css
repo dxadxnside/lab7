@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #fff;
+    margin: 0;
+}
+.holder {
+    border-radius: 25px;
+    margin-top: 1.3%;
+    background-color: #1f1f1f;
+    padding: 3% 11% 3% 10%;
+}
+.container {
+    text-align: center;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+}
+
+.question {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+}
+
+.answer {
+    margin-top: -413px;
+    margin-left: 230px;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    width: 300px;
+    height: 50px;
+    margin-left: 5.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.askButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.askButton:hover {
+    background-color: #45a049;
+}
+
+.magicBall {
+    width: 500px;
+    height: 550px;
+    margin: 20px auto;
+}
